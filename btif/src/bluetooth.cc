@@ -135,7 +135,7 @@ static bool is_profile(const char* p1, const char* p2) {
  ****************************************************************************/
 
 static int init(bt_callbacks_t* callbacks, bool start_restricted,
-                bool is_niap_mode) {
+                bool is_niap_mode, bool is_atv) {
   LOG_INFO(LOG_TAG, "%s: start restricted = %d ; niap = %d", __func__,
            start_restricted, is_niap_mode);
 
